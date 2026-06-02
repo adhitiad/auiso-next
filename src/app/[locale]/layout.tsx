@@ -154,12 +154,55 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             {user?.role !== "premium" && user?.role !== "admin" && (
               <Script
                 id="juicyads-native-ads"
+                data-id="juicyads-native-ads"
                 type="text/javascript"
                 data-ad-zone="1118954"
                 data-targets="a"
                 src="https://js.juicyads.com/juicyads.native-ads.min.js"
                 strategy="afterInteractive"
               />
+            )}
+
+            {/* Adsterra Ads */}
+            {user?.role !== "premium" && user?.role !== "admin" && (
+              <div className="w-full flex flex-col items-center justify-center py-4 space-y-4">
+                {/* Adsterra Native Banner */}
+                <Script
+                  id="adsterra-native-js"
+                  async
+                  data-cfasync="false"
+                  src="https://downconvenientmagnetic.com/94705cc2f74c8c37022a45bf42b54d42/invoke.js"
+                  strategy="afterInteractive"
+                />
+                <div id="container-94705cc2f74c8c37022a45bf42b54d42"></div>
+                
+                {/* Adsterra Iframe 300x250 */}
+                <Script
+                  id="adsterra-atoptions"
+                  strategy="afterInteractive"
+                  dangerouslySetInnerHTML={{
+                    __html: `window.atOptions = {
+                      'key' : '94cc205d61c5f20cb8d363e74c8302f6',
+                      'format' : 'iframe',
+                      'height' : 250,
+                      'width' : 300,
+                      'params' : {}
+                    };`
+                  }}
+                />
+                <Script
+                  id="adsterra-invoke"
+                  src="https://downconvenientmagnetic.com/94cc205d61c5f20cb8d363e74c8302f6/invoke.js"
+                  strategy="afterInteractive"
+                />
+
+                {/* Adsterra Social Bar / Popunder */}
+                <Script
+                  id="adsterra-social-bar"
+                  src="https://downconvenientmagnetic.com/0b/15/9f/0b159fa0e18b0075fd739cd5836c6092.js"
+                  strategy="afterInteractive"
+                />
+              </div>
             )}
 
             {children}
