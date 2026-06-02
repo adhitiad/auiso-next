@@ -1,0 +1,211 @@
+{
+  "Header": {
+    "home": "Beranda",
+    "forYou": "Untuk Anda",
+    "explore": "Jelajah",
+    "categories": "Kategori",
+    "aiSearch": "AI Search",
+    "aiChat": "AI Chat",
+    "login": "Masuk",
+    "register": "Daftar",
+    "adminPanel": "Panel Admin",
+    "bookmarks": "Tersimpan",
+    "settings": "Pengaturan Akun",
+    "advertise": "Pasang Iklan",
+    "logout": "Keluar"
+  },
+  "Footer": {
+    "description": "Aiuiso adalah platform streaming video premium dengan fitur canggih dan keamanan tinggi.",
+    "quickLinks": "Tautan Cepat",
+    "legal": "Legal",
+    "dmca": "DMCA",
+    "privacy": "Kebijakan Privasi",
+    "tos": "Syarat & Ketentuan",
+    "faq": "FAQ",
+    "contact": "Kontak Kami",
+    "rights": "Hak Cipta Dilindungi"
+  },
+  "Login": {
+    "welcome": "Selamat Datang",
+    "description": "Masuk ke Aiuiso untuk menonton, menyimpan, dan berinteraksi.",
+    "or": "ATAU",
+    "noAccount": "Belum punya akun?",
+    "registerNow": "Daftar sekarang",
+    "agreeTerms": "Dengan masuk, Anda menyetujui",
+    "and": "dan",
+    "ourPrivacy": "Kebijakan Privasi kami."
+  },
+  "Legal": {
+    "dmcaTitle": "Kebijakan DMCA",
+    "dmcaDesc": "Pemberitahuan dan Kebijakan Digital Millennium Copyright Act (DMCA).",
+    "privacyTitle": "Kebijakan Privasi",
+    "privacyDesc": "Informasi mengenai bagaimana kami mengumpulkan dan menggunakan data Anda.",
+    "tosTitle": "Ketentuan Layanan",
+    "tosDesc": "Syarat dan ketentuan penggunaan layanan Aiuiso.",
+    "faqTitle": "Pertanyaan Umum (FAQ)",
+    "contactTitle": "Kontak Kami",
+    "advertiseTitle": "Pasang Iklan Bersama Kami"
+  },
+  "Advertise": {
+    "desc": "Jangkau ribuan penonton setia Aiuiso setiap hari.",
+    "advName": "Nama Pengiklan / Perusahaan",
+    "advNamePlaceholder": "Contoh: PT. Digital Jaya",
+    "bannerUrl": "URL Banner Image",
+    "targetUrl": "URL Tujuan Klik",
+    "adPosition": "Posisi Iklan",
+    "adPositionPlaceholder": "Pilih Slot Iklan",
+    "duration": "Durasi (Hari)",
+    "totalPrice": "Total Pembayaran",
+    "paymentMethod": "Pilih Metode Pembayaran Crypto",
+    "proceedPayment": "Lanjutkan Pembayaran",
+    "sendVia": "Kirim",
+    "verifyMessage": "Sistem akan memverifikasi secara otomatis setelah transaksi masuk ke blockchain.",
+    "verifyButton": "Saya Sudah Membayar",
+    "verifying": "Memverifikasi...",
+    "cancel": "Batal"
+  },
+  "Contact": {
+    "desc": "Punya pertanyaan atau masukan? Kami selalu siap mendengarkan.",
+    "name": "Nama Lengkap",
+    "namePlaceholder": "Nama Anda",
+    "email": "Alamat Email",
+    "emailPlaceholder": "email@anda.com",
+    "message": "Pesan",
+    "messagePlaceholder": "Bagaimana kami bisa membantu?",
+    "send": "Kirim Pesan",
+    "supportTitle": "Dukungan Pelanggan",
+    "supportDesc": "Butuh bantuan teknis atau ada masalah akun?",
+    "businessTitle": "Bisnis & Kemitraan",
+    "businessDesc": "Tertarik beriklan atau bekerja sama?",
+    "securityTitle": "Laporkan Bug",
+    "securityDesc": "Menemukan celah keamanan atau bug?"
+  },
+  "FAQ": {
+    "desc": "Temukan jawaban untuk pertanyaan umum mengenai Aiuiso.",
+    "q1": "Apakah Aiuiso gratis?",
+    "a1": "Ya, Aiuiso gratis. Kami juga menawarkan VIP untuk bebas iklan.",
+    "q2": "Bagaimana cara menjadi VIP?",
+    "a2": "Anda dapat upgrade ke VIP melalui menu pengaturan akun.",
+    "q3": "Apakah data saya aman?",
+    "a3": "Kami menggunakan enkripsi canggih untuk melindungi data Anda.",
+    "q4": "Bisakah saya mengunduh video?",
+    "a4": "Fitur unduh tersedia untuk pengguna VIP pada video tertentu."
+  },
+  "LegalBody": {
+    "dmcaSummary": "Aiuiso menghargai hak kekayaan intelektual. Jika Anda yakin karya Anda dilanggar, kirimkan pemberitahuan DMCA. Kami akan segera menghapusnya.",
+    "privacySummary": "Kami mengumpulkan data akun dasar untuk meningkatkan layanan. Data Anda dienkripsi dan tidak pernah dijual. Dengan menggunakan Aiuiso, Anda menyetujui hal ini.",
+    "tosSummary": "Dengan mengakses Aiuiso, Anda menyetujui ketentuan ini. Pengguna harus 18+ untuk konten dewasa. Kami berhak menangguhkan akun yang melanggar."
+  },
+  "DMCA": {
+    "p1": "Aiuiso menghormati hak kekayaan intelektual pihak lain. Merupakan kebijakan kami untuk merespons dengan cepat setiap klaim bahwa konten yang diposting di situs web kami melanggar hak cipta atau pelanggaran kekayaan intelektual lainnya.",
+    "takedownTitle": "Mengajukan Pemberitahuan Penghapusan (Takedown Notice)",
+    "takedownP1": "Jika Anda yakin dengan itikad baik bahwa konten apa pun yang dihosting di Aiuiso melanggar hak cipta Anda, harap berikan Agen Hak Cipta kami informasi tertulis berikut:",
+    "takedownL1": "Tanda tangan fisik atau elektronik dari orang yang berwenang untuk bertindak atas nama pemilik hak eksklusif yang diduga dilanggar.",
+    "takedownL2": "Identifikasi karya berhak cipta yang diklaim telah dilanggar, atau, jika ada beberapa karya berhak cipta yang dicakup oleh satu pemberitahuan, daftar perwakilan dari karya-karya tersebut.",
+    "takedownL3": "Identifikasi materi yang diklaim sebagai pelanggaran atau menjadi subjek aktivitas pelanggaran dan yang harus dihapus atau akses ke mana yang harus dinonaktifkan, dan informasi yang cukup memadai untuk memungkinkan kami menemukan materi tersebut (misalnya, URL persisnya).",
+    "takedownL4": "Informasi yang cukup memadai untuk memungkinkan kami menghubungi Anda, seperti alamat, nomor telepon, dan, jika tersedia, alamat email elektronik.",
+    "takedownL5": "Pernyataan bahwa Anda memiliki keyakinan dengan itikad baik bahwa penggunaan materi dengan cara yang dikeluhkan tidak diizinkan oleh pemilik hak cipta, agennya, atau hukum.",
+    "takedownL6": "Pernyataan bahwa informasi dalam pemberitahuan tersebut akurat, dan di bawah hukuman sumpah palsu, bahwa Anda berwenang untuk bertindak atas nama pemilik hak eksklusif yang diduga dilanggar.",
+    "contactTitle": "Kirimkan Pemberitahuan Ke",
+    "contactP1": "Harap kirimkan pemberitahuan penghapusan DMCA lengkap Anda ke agen hak cipta yang ditunjuk kami melalui halaman Kontak kami atau langsung melalui email di:",
+    "counterTitle": "Pemberitahuan Balasan (Counter-Notice)",
+    "counterP1": "Jika Anda merasa bahwa konten Anda yang dihapus (atau aksesnya dinonaktifkan) tidak melanggar, atau bahwa Anda memiliki otorisasi dari pemilik hak cipta, Anda dapat mengirim pemberitahuan balasan yang berisi detail yang diperlukan kepada Agen Hak Cipta kami.",
+    "note": "Catatan: Kami akan menghentikan akun pelanggar berulang dalam keadaan yang sesuai."
+  },
+  "PrivacyFull": {
+    "introTitle": "1. Pendahuluan",
+    "intro": "Selamat datang di Aiuiso. Kami menghormati privasi Anda dan berkomitmen untuk melindungi data pribadi Anda. Kebijakan privasi ini akan memberi tahu Anda bagaimana kami menjaga data pribadi Anda ketika Anda mengunjungi situs web kami dan memberi tahu Anda tentang hak privasi Anda.",
+    "s1Title": "2. Data yang Kami Kumpulkan",
+    "s1P1": "Kami dapat mengumpulkan, menggunakan, menyimpan, dan mentransfer berbagai jenis data pribadi tentang Anda yang telah kami kelompokkan sebagai berikut:",
+    "s1L1": "Data Identitas: nama pengguna, alamat email.",
+    "s1L2": "Data Teknis: alamat IP, jenis dan versi peramban (browser), pengaturan zona waktu, dan sistem operasi.",
+    "s1L3": "Data Penggunaan: informasi tentang bagaimana Anda menggunakan situs web kami, termasuk riwayat tontonan dan interaksi Anda.",
+    "s2Title": "3. Bagaimana Kami Menggunakan Data Anda",
+    "s2P1": "Kami hanya akan menggunakan data pribadi Anda ketika diizinkan oleh hukum. Paling umum, kami akan menggunakan data pribadi Anda dalam keadaan berikut:",
+    "s2L1": "Untuk mendaftarkan Anda sebagai pengguna baru.",
+    "s2L2": "Untuk menayangkan konten situs web dan iklan yang relevan kepada Anda.",
+    "s2L3": "Untuk menggunakan analitik data guna meningkatkan situs web, produk/layanan, pemasaran, hubungan pelanggan, dan pengalaman kami.",
+    "s3Title": "4. Cookies",
+    "s3P1": "Anda dapat mengatur peramban Anda untuk menolak semua atau beberapa cookies peramban, atau untuk memberi tahu Anda saat situs web mengatur atau mengakses cookies. Jika Anda menonaktifkan atau menolak cookies, harap dicatat bahwa beberapa bagian dari situs web ini mungkin menjadi tidak dapat diakses atau tidak berfungsi dengan baik.",
+    "s4Title": "5. Tautan Pihak Ketiga",
+    "s4P1": "Situs web ini dapat mencakup tautan ke situs web, plug-in, dan aplikasi pihak ketiga. Mengklik tautan tersebut atau mengaktifkan koneksi tersebut memungkinkan pihak ketiga untuk mengumpulkan atau berbagi data tentang Anda. Kami tidak mengontrol situs web pihak ketiga ini dan tidak bertanggung jawab atas pernyataan privasinya.",
+    "lastUpdated": "Terakhir Diperbarui: ",
+    "contactPrompt": "Jika Anda memiliki pertanyaan tentang kebijakan privasi ini, silakan "
+  },
+  "TOSFull": {
+    "s1Title": "1. Penerimaan Syarat",
+    "s1P1": "Dengan mengakses dan menggunakan situs web Aiuiso, Anda menerima dan setuju untuk terikat oleh syarat dan ketentuan perjanjian ini. Selain itu, saat menggunakan layanan khusus situs web ini, Anda tunduk pada pedoman atau aturan yang diposting yang berlaku untuk layanan tersebut.",
+    "s2Title": "2. Akun Pengguna",
+    "s2P1": "Untuk menggunakan fitur tertentu dari Aiuiso, Anda harus mendaftar akun. Anda bertanggung jawab untuk menjaga kerahasiaan kata sandi Anda dan membatasi akses ke perangkat Anda. Anda setuju untuk menerima tanggung jawab atas semua aktivitas yang terjadi di bawah akun atau kata sandi Anda.",
+    "s3Title": "3. Pembatasan Usia",
+    "s3P1": "Anda harus berusia minimal 13 tahun untuk menggunakan platform ini. Jika Anda berusia di bawah batas usia mayoritas di yurisdiksi Anda, Anda harus menggunakan situs ini hanya dengan keterlibatan orang tua atau wali. Beberapa konten mungkin dibatasi usia dan Anda setuju untuk tidak mencoba memintas pembatasan ini.",
+    "s4Title": "4. Hak Cipta dan Kekayaan Intelektual",
+    "s4P1": "Aiuiso bertindak sebagai indeks dan hub untuk konten video. Kami sangat menghargai hak kekayaan intelektual orang lain. Untuk informasi lebih lanjut mengenai cara melaporkan pelanggaran hak cipta, silakan kunjungi halaman ",
+    "s5Title": "5. Perilaku Pengguna",
+    "s5P1": "Anda setuju untuk tidak menggunakan situs untuk:",
+    "s5L1": "Mengunggah atau membagikan konten yang melanggar hukum, berbahaya, mengancam, melecehkan, atau mengandung unsur kebencian.",
+    "s5L2": "Berperan sebagai individu atau entitas lain (Impersonation).",
+    "s5L3": "Mengirimkan email sampah, spam, atau pesan duplikat/tidak diminta.",
+    "s5L4": "Mengganggu atau merusak keamanan situs web atau jaringan terkait.",
+    "s6Title": "6. Pemutusan Akses",
+    "s6P1": "Aiuiso berhak, atas kebijakannya sendiri, untuk menghentikan akses Anda ke seluruh atau sebagian situs dengan atau tanpa pemberitahuan atas alasan apa pun, termasuk pelanggaran terhadap Syarat dan Ketentuan ini.",
+    "contactPrompt": "Syarat ini diatur oleh dan ditafsirkan sesuai dengan undang-undang yang berlaku. Untuk segala keluhan terkait Syarat dan Ketentuan, Anda dapat "
+  },
+  "Home": {
+    "latestVideos": "Video Terbaru"
+  },
+  "VideoGrid": {
+    "loading": "Memuat video...",
+    "tryAgain": "Coba lagi",
+    "endOfList": "Semua video sudah ditampilkan.",
+    "errorLoad": "Gagal memuat video",
+    "errorNext": "Video berikutnya gagal dimuat.",
+    "emptyMessage": "Belum ada video",
+    "loadingMessage": "Memuat..."
+  },
+  "Shorts": {
+    "title": "AI Recommended Shorts",
+    "subtitle": "Dipersonalisasi khusus untuk Anda"
+  },
+  "VideoCard": {
+    "noThumbnail": "Tanpa Gambar",
+    "hour": "j",
+    "minute": "m"
+  },
+  "WatchPage": {
+    "videoNotFound": "Video Tidak Ditemukan",
+    "antiPiracy": "Dilarang merekam atau mendistribusikan ulang konten ini. Pelanggaran hak cipta akan ditindak tegas.",
+    "videoUnavailable": "Video tidak tersedia",
+    "views": "penonton",
+    "synopsis": "Sinopsis",
+    "tags": "Tags",
+    "relatedVideos": "Video Terkait",
+    "hour": "j",
+    "minute": "m"
+  },
+  "VideoPlayer": {
+    "sourceUnavailable": "Sumber video tidak tersedia.",
+    "externalHosted": "Video di-host secara eksternal.",
+    "watchExternal": "Tonton Sumber Eksternal"
+  },
+  "CommentSection": {
+    "title": "Komentar",
+    "placeholder": "Tulis komentar...",
+    "sending": "Mengirim...",
+    "send": "Kirim",
+    "loginToComment1": "Masuk",
+    "loginToComment2": " untuk meninggalkan komentar.",
+    "anonymous": "Anonim",
+    "noComments": "Belum ada komentar. Jadilah yang pertama!"
+  },
+  "SearchPage": {
+    "title": "Pencarian",
+    "invalidKeyword": "Silakan masukkan kata kunci pencarian yang valid.",
+    "resultsFor": "Hasil Pencarian: \"{query}\"",
+    "emptySearch": "Tidak ada video yang cocok dengan pencarian"
+  },
+  "CategoryPage": {
+    "notFound": "Kategori Tidak Ditemukan",
+    "description": "Video dalam kategori {category}"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "Header": {
+    "home": "Home",
+    "forYou": "For You",
+    "explore": "Explore",
+    "categories": "Categories",
+    "aiSearch": "AI Search",
+    "aiChat": "AI Chat",
+    "login": "Login",
+    "register": "Register",
+    "adminPanel": "Admin Panel",
+    "bookmarks": "Bookmarks",
+    "settings": "Account Settings",
+    "advertise": "Advertise",
+    "logout": "Logout"
+  },
+  "Footer": {
+    "description": "Aiuiso is a premium video streaming platform with advanced features and high security.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "dmca": "DMCA",
+    "privacy": "Privacy Policy",
+    "tos": "Terms of Service",
+    "faq": "FAQ",
+    "contact": "Contact Us",
+    "rights": "All Rights Reserved",
+    "disclaimer": "Disclaimer: This site contains adult content. You must be 18 years or older to enter."
+  },
+  "Login": {
+    "welcome": "Welcome",
+    "description": "Log in to Aiuiso to watch, save, and interact.",
+    "or": "OR",
+    "noAccount": "Don't have an account?",
+    "registerNow": "Register now",
+    "agreeTerms": "By logging in, you agree to our",
+    "and": "and",
+    "ourPrivacy": "Privacy Policy."
+  },
+  "Legal": {
+    "dmcaTitle": "DMCA Policy",
+    "dmcaDesc": "Digital Millennium Copyright Act (DMCA) Notice and Policy.",
+    "privacyTitle": "Privacy Policy",
+    "privacyDesc": "Information on how we collect and use your data.",
+    "tosTitle": "Terms of Service",
+    "tosDesc": "Terms and conditions for using Aiuiso services.",
+    "faqTitle": "Frequently Asked Questions",
+    "contactTitle": "Contact Us",
+    "advertiseTitle": "Advertise With Us"
+  },
+  "Advertise": {
+    "desc": "Reach thousands of loyal Aiuiso viewers every day.",
+    "advName": "Advertiser / Company Name",
+    "advNamePlaceholder": "Example: PT. Digital Jaya",
+    "bannerUrl": "Banner Image URL",
+    "targetUrl": "Click Target URL",
+    "adPosition": "Ad Position",
+    "adPositionPlaceholder": "Select Ad Slot",
+    "duration": "Duration (Days)",
+    "totalPrice": "Total Payment",
+    "paymentMethod": "Select Crypto Payment Method",
+    "proceedPayment": "Proceed to Payment",
+    "sendVia": "Send",
+    "verifyMessage": "The system will verify automatically after the transaction is on the blockchain.",
+    "verifyButton": "I Have Paid",
+    "verifying": "Verifying...",
+    "cancel": "Cancel"
+  },
+  "Contact": {
+    "desc": "Have questions or feedback? We are always ready to listen.",
+    "name": "Full Name",
+    "namePlaceholder": "Your name",
+    "email": "Email Address",
+    "emailPlaceholder": "your@email.com",
+    "message": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "send": "Send Message",
+    "supportTitle": "Customer Support",
+    "supportDesc": "Need technical assistance or have issues with your account?",
+    "businessTitle": "Business & Partnership",
+    "businessDesc": "Interested in advertising or collaborating?",
+    "securityTitle": "Report Bug",
+    "securityDesc": "Found a security vulnerability or bug?"
+  },
+  "FAQ": {
+    "desc": "Find answers to common questions about Aiuiso.",
+    "q1": "Is Aiuiso free?",
+    "a1": "Yes, basic features are free. We also offer VIP for an ad-free experience.",
+    "q2": "How do I become a VIP?",
+    "a2": "Upgrade via account settings using supported payment methods.",
+    "q3": "Is my data secure?",
+    "a3": "We use advanced encryption to protect your data and privacy.",
+    "q4": "Can I download videos?",
+    "a4": "Downloading is available for VIP users on selected videos."
+  },
+  "LegalBody": {
+    "dmcaSummary": "Aiuiso respects intellectual property rights. If you believe your copyrighted work has been infringed, please send a DMCA notice to our agent. We will promptly remove the material.",
+    "privacySummary": "We collect basic account info and usage data to improve services. Your data is encrypted and never sold. By using Aiuiso, you consent to our practices.",
+    "tosSummary": "By accessing Aiuiso, you agree to these terms. Users must be 18+ to access adult content. We reserve the right to suspend violating accounts."
+  },
+  "DMCA": {
+    "p1": "Aiuiso respects the intellectual property rights of others. It is our policy to respond promptly to any claim that content posted on our website infringes copyright or other intellectual property infringement.",
+    "takedownTitle": "Submitting a Takedown Notice",
+    "takedownP1": "If you believe in good faith that any content hosted on Aiuiso infringes your copyright, please provide our Copyright Agent with the following written information:",
+    "takedownL1": "A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.",
+    "takedownL2": "Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works at that site.",
+    "takedownL3": "Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit us to locate the material (e.g., the exact URL).",
+    "takedownL4": "Information reasonably sufficient to permit us to contact you, such as an address, telephone number, and, if available, an electronic mail address.",
+    "takedownL5": "A statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.",
+    "takedownL6": "A statement that the information in the notification is accurate, and under penalty of perjury, that you are authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.",
+    "contactTitle": "Send Notices To",
+    "contactP1": "Please send your complete DMCA takedown notice to our designated copyright agent via our Contact page or directly by email at:",
+    "counterTitle": "Counter-Notice",
+    "counterP1": "If you feel that your content that was removed (or access to which was disabled) is not infringing, or that you have the authorization from the copyright owner, you may send a counter-notice containing the necessary details to our Copyright Agent.",
+    "note": "Note: We will terminate the accounts of repeat infringers in appropriate circumstances."
+  },
+  "PrivacyFull": {
+    "introTitle": "1. Introduction",
+    "intro": "Welcome to Aiuiso. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you how we look after your personal data when you visit our website.",
+    "s1Title": "2. Data We Collect",
+    "s1P1": "We may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows:",
+    "s1L1": "Identity Data: username, email address.",
+    "s1L2": "Technical Data: IP address, browser type and version, time zone setting, and operating system.",
+    "s1L3": "Usage Data: information about how you use our website, including your watch history and interactions.",
+    "s2Title": "3. How We Use Your Data",
+    "s2P1": "We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:",
+    "s2L1": "To register you as a new user.",
+    "s2L2": "To deliver relevant website content and advertisements to you.",
+    "s2L3": "To use data analytics to improve our website, products/services, marketing, customer relationships and experiences.",
+    "s3Title": "4. Cookies",
+    "s3P1": "You can set your browser to refuse all or some browser cookies, or to alert you when websites set or access cookies. If you disable or refuse cookies, please note that some parts of this website may become inaccessible or not function properly.",
+    "s4Title": "5. Third-Party Links",
+    "s4P1": "This website may include links to third-party websites, plug-ins and applications. Clicking on those links or enabling those connections may allow third parties to collect or share data about you. We do not control these third-party websites and are not responsible for their privacy statements.",
+    "lastUpdated": "Last Updated:",
+    "contactPrompt": "If you have any questions about this privacy policy, please "
+  },
+  "TOSFull": {
+    "s1Title": "1. Acceptance of Terms",
+    "s1P1": "By accessing and using the Aiuiso website, you accept and agree to be bound by the terms and provision of this agreement. In addition, when using this website's particular services, you shall be subject to any posted guidelines or rules applicable to such services.",
+    "s2Title": "2. User Account",
+    "s2P1": "To use certain features of Aiuiso, you must register for an account. You are responsible for maintaining the confidentiality of your password and restricting access to your device. You agree to accept responsibility for all activities that occur under your account or password.",
+    "s3Title": "3. Age Restrictions",
+    "s3P1": "You must be at least 13 years old to use this platform. If you are under the age of majority in your jurisdiction, you must use this site only with the involvement of a parent or guardian. Some content may be age-restricted and you agree not to attempt to bypass these restrictions.",
+    "s4Title": "4. Copyright and Intellectual Property",
+    "s4P1": "Aiuiso acts as an index and hub for video content. We highly respect the intellectual property rights of others. For more information on how to report copyright infringement, please visit our ",
+    "s5Title": "5. User Conduct",
+    "s5P1": "You agree not to use the site to:",
+    "s5L1": "Upload or share content that is unlawful, harmful, threatening, abusive, or hateful.",
+    "s5L2": "Impersonate any person or entity.",
+    "s5L3": "Send junk email, spam, or duplicative/unsolicited messages.",
+    "s5L4": "Interfere with or disrupt the security of the website or connected networks.",
+    "s6Title": "6. Termination of Access",
+    "s6P1": "Aiuiso reserves the right, at its sole discretion, to terminate your access to all or part of the site with or without notice for any reason, including violation of these Terms and Conditions.",
+    "contactPrompt": "These terms are governed by and construed in accordance with applicable laws. For any complaints regarding the Terms and Conditions, you can "
+  },
+  "Home": {
+    "latestVideos": "Latest Videos"
+  },
+  "VideoGrid": {
+    "loading": "Loading videos...",
+    "tryAgain": "Try again",
+    "endOfList": "All videos have been displayed.",
+    "errorLoad": "Failed to load video",
+    "errorNext": "Failed to load next videos.",
+    "emptyMessage": "No videos available",
+    "loadingMessage": "Loading..."
+  },
+  "Shorts": {
+    "title": "AI Recommended Shorts",
+    "subtitle": "Personalized just for you"
+  },
+  "VideoCard": {
+    "noThumbnail": "No Thumbnail",
+    "hour": "h",
+    "minute": "m"
+  },
+  "WatchPage": {
+    "videoNotFound": "Video Not Found",
+    "antiPiracy": "Recording or redistributing this content is strictly prohibited. Copyright infringement will be prosecuted.",
+    "videoUnavailable": "Video unavailable",
+    "views": "views",
+    "synopsis": "Synopsis",
+    "tags": "Tags",
+    "relatedVideos": "Related Videos",
+    "hour": "h",
+    "minute": "m"
+  },
+  "VideoPlayer": {
+    "sourceUnavailable": "Video source unavailable.",
+    "externalHosted": "Video is hosted externally.",
+    "watchExternal": "Watch External Source"
+  },
+  "CommentSection": {
+    "title": "Comments",
+    "placeholder": "Write a comment...",
+    "sending": "Sending...",
+    "send": "Send",
+    "loginToComment1": "Log in",
+    "loginToComment2": " to leave a comment.",
+    "anonymous": "Anonymous",
+    "noComments": "No comments yet. Be the first!"
+  },
+  "SearchPage": {
+    "title": "Search",
+    "invalidKeyword": "Please enter a valid search keyword.",
+    "resultsFor": "Search Results: \"{query}\"",
+    "emptySearch": "No videos match your search"
+  },
+  "CategoryPage": {
+    "notFound": "Category Not Found",
+    "description": "Videos in category {category}"
+  }
+}

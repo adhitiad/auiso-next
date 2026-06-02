@@ -1,0 +1,212 @@
+{
+  "Header": {
+    "home": "홈",
+    "forYou": "추천",
+    "explore": "탐색",
+    "categories": "카테고리",
+    "aiSearch": "AI 검색",
+    "aiChat": "AI 채팅",
+    "login": "로그인",
+    "register": "가입",
+    "adminPanel": "관리자 패널",
+    "bookmarks": "북마크",
+    "settings": "설정",
+    "advertise": "광고",
+    "logout": "로그아웃"
+  },
+  "Footer": {
+    "description": "Aiuiso는 고품질 비디오 스트리밍 플랫폼입니다.",
+    "quickLinks": "빠른 링크",
+    "legal": "법률",
+    "dmca": "DMCA",
+    "privacy": "개인정보 보호정책",
+    "tos": "이용약관",
+    "faq": "FAQ",
+    "contact": "문의",
+    "rights": "모든 권리 보유",
+    "disclaimer": "면책 조항: 이 사이트에는 성인 콘텐츠가 포함되어 있습니다. 입장하려면 18세 이상이어야 합니다."
+  },
+  "Login": {
+    "welcome": "환영합니다",
+    "description": "로그인하여 비디오를 감상하세요.",
+    "or": "또는",
+    "noAccount": "계정이 없으신가요?",
+    "registerNow": "지금 가입하세요",
+    "agreeTerms": "로그인하면 당사의 약관에 동의하게 됩니다:",
+    "and": "및",
+    "ourPrivacy": "개인정보 보호정책."
+  },
+  "Legal": {
+    "dmcaTitle": "DMCA 정책",
+    "dmcaDesc": "DMCA 고지 및 정책.",
+    "privacyTitle": "개인정보 보호정책",
+    "privacyDesc": "데이터 수집 방법.",
+    "tosTitle": "이용약관",
+    "tosDesc": "이용약관 안내.",
+    "faqTitle": "자주 묻는 질문",
+    "contactTitle": "문의하기",
+    "advertiseTitle": "광고 문의"
+  },
+  "Advertise": {
+    "desc": "매일 수천 명의 Aiuiso 시청자에게 도달하세요.",
+    "advName": "광고주/회사명",
+    "advNamePlaceholder": "예: 디지털 주식회사",
+    "bannerUrl": "배너 URL",
+    "targetUrl": "클릭 URL",
+    "adPosition": "광고 위치",
+    "adPositionPlaceholder": "슬롯 선택",
+    "duration": "기간 (일)",
+    "totalPrice": "총 결제 금액",
+    "paymentMethod": "결제 방법 선택",
+    "proceedPayment": "결제 진행",
+    "sendVia": "전송",
+    "verifyMessage": "블록체인 거래 후 시스템이 자동으로 확인합니다.",
+    "verifyButton": "결제 완료",
+    "verifying": "확인 중...",
+    "cancel": "취소"
+  },
+  "Contact": {
+    "desc": "질문이나 피드백이 있으신가요?",
+    "name": "이름",
+    "namePlaceholder": "당신의 이름",
+    "email": "이메일",
+    "emailPlaceholder": "your@email.com",
+    "message": "메시지",
+    "messagePlaceholder": "무엇을 도와드릴까요?",
+    "send": "메시지 보내기",
+    "supportTitle": "고객 지원",
+    "supportDesc": "기술 지원이 필요하십니까?",
+    "businessTitle": "비즈니스",
+    "businessDesc": "광고에 관심이 있으신가요?",
+    "securityTitle": "버그 신고",
+    "securityDesc": "보안 취약점을 발견하셨나요?"
+  },
+  "FAQ": {
+    "desc": "Aiuiso에 대한 자주 묻는 질문입니다.",
+    "q1": "Aiuiso는 무료인가요?",
+    "a1": "네, 기본 기능은 무료입니다. 광고 없는 VIP도 있습니다.",
+    "q2": "VIP가 되려면?",
+    "a2": "계정 설정에서 업그레이드하세요.",
+    "q3": "내 데이터는 안전한가요?",
+    "a3": "우리는 데이터를 보호하기 위해 암호화를 사용합니다.",
+    "q4": "비디오를 다운로드할 수 있나요?",
+    "a4": "일부 비디오는 VIP 사용자만 다운로드할 수 있습니다."
+  },
+  "LegalBody": {
+    "dmcaSummary": "Aiuiso는 저작권을 존중합니다. 침해된 경우 DMCA 통지를 보내주세요.",
+    "privacySummary": "우리는 서비스 향상을 위해 기본 데이터를 수집합니다. 데이터는 암호화됩니다.",
+    "tosSummary": "Aiuiso에 액세스하면 이 조건에 동의하는 것입니다. 성인 콘텐츠는 18세 이상이어야 합니다."
+  },
+  "DMCA": {
+    "p1": "Aiuiso는 타인의 지적 재산권을 존중합니다. 당사 웹사이트의 콘텐츠가 저작권을 침해한다는 주장에 신속하게 대응하는 것이 당사의 정책입니다.",
+    "takedownTitle": "게시 중단 통지 제출",
+    "takedownP1": "Aiuiso에 호스팅된 콘텐츠가 귀하의 저작권을 침해한다고 선의로 믿는 경우 당사 저작권 대리인에게 다음 서면 정보를 제공하십시오.",
+    "takedownL1": "침해된 것으로 추정되는 독점권 소유자를 대신하여 행동할 권한이 있는 사람의 물리적 또는 전자 서명.",
+    "takedownL2": "침해된 것으로 주장되는 저작물의 식별 정보.",
+    "takedownL3": "삭제되어야 하거나 액세스가 비활성화되어야 하는 자료의 식별 정보(예: 정확한 URL).",
+    "takedownL4": "주소, 전화번호 및 이메일 주소 등 당사가 귀하에게 연락할 수 있는 정보.",
+    "takedownL5": "자료의 사용이 저작권 소유자, 대리인 또는 법률에 의해 승인되지 않았다는 선의의 믿음이 있다는 진술.",
+    "takedownL6": "통지서의 정보가 정확하다는 진술.",
+    "contactTitle": "통지서 보내실 곳",
+    "contactP1": "지정된 저작권 대리인에게 이메일로 DMCA 통지를 보내주십시오:",
+    "counterTitle": "반대 통지",
+    "counterP1": "삭제된 콘텐츠가 침해되지 않았다고 생각하거나 권한이 있는 경우 반대 통지를 보낼 수 있습니다.",
+    "note": "참고: 당사는 반복적인 침해자의 계정을 해지합니다."
+  },
+  "PrivacyFull": {
+    "introTitle": "1. 소개",
+    "intro": "Aiuiso에 오신 것을 환영합니다. 우리는 귀하의 개인정보를 존중하고 보호합니다.",
+    "s1Title": "2. 수집하는 데이터",
+    "s1P1": "수집하는 데이터는 다음과 같습니다:",
+    "s1L1": "신원 데이터: 사용자 이름, 이메일.",
+    "s1L2": "기술 데이터: IP 주소, 브라우저 정보 등.",
+    "s1L3": "사용 데이터: 시청 기록 등.",
+    "s2Title": "3. 데이터 사용 방법",
+    "s2P1": "다음과 같은 목적을 위해 데이터를 사용합니다:",
+    "s2L1": "새 사용자 등록.",
+    "s2L2": "관련 콘텐츠 제공.",
+    "s2L3": "서비스 개선.",
+    "s3Title": "4. 쿠키",
+    "s3P1": "쿠키를 거부할 수 있으나 일부 기능이 제한될 수 있습니다.",
+    "s4Title": "5. 타사 링크",
+    "s4P1": "외부 사이트의 개인정보 보호에 대해서는 책임지지 않습니다.",
+    "lastUpdated": "최종 업데이트:",
+    "contactPrompt": "질문이 있으시면 여기로 연락하세요: "
+  },
+  "TOSFull": {
+    "s1Title": "1. 약관 동의",
+    "s1P1": "Aiuiso를 사용하면 이 약관에 동의하는 것으로 간주됩니다.",
+    "s2Title": "2. 사용자 계정",
+    "s2P1": "비밀번호 보안은 귀하의 책임입니다.",
+    "s3Title": "3. 연령 제한",
+    "s3P1": "최소 13세 이상이어야 합니다. 성인 콘텐츠는 연령 제한이 있습니다.",
+    "s4Title": "4. 저작권",
+    "s4P1": "우리는 저작권을 존중합니다. 침해 신고는 다음을 방문하세요: ",
+    "s5Title": "5. 사용자 행동",
+    "s5P1": "다음을 금지합니다:",
+    "s5L1": "불법 및 유해 콘텐츠 업로드.",
+    "s5L2": "타인 사칭.",
+    "s5L3": "스팸 발송.",
+    "s5L4": "사이트 보안 방해.",
+    "s6Title": "6. 액세스 종료",
+    "s6P1": "규정 위반 시 계정이 정지될 수 있습니다.",
+    "contactPrompt": "약관에 대한 불만 사항은 여기로 연락하세요: "
+  },
+  "Home": {
+    "latestVideos": "최신 비디오"
+  },
+  "VideoGrid": {
+    "loading": "비디오 로드 중...",
+    "tryAgain": "다시 시도",
+    "endOfList": "모든 비디오가 표시되었습니다.",
+    "errorLoad": "비디오 로드 실패",
+    "errorNext": "다음 비디오 로드 실패.",
+    "emptyMessage": "사용 가능한 비디오가 없습니다",
+    "loadingMessage": "로딩 중..."
+  },
+  "Shorts": {
+    "title": "AI 추천 쇼츠",
+    "subtitle": "당신을 위한 맞춤 콘텐츠"
+  },
+  "VideoCard": {
+    "noThumbnail": "썸네일 없음",
+    "hour": "시간",
+    "minute": "분"
+  },
+  "WatchPage": {
+    "videoNotFound": "비디오를 찾을 수 없음",
+    "antiPiracy": "이 콘텐츠의 녹화 및 재배포는 엄격히 금지됩니다. 저작권 침해는 처벌받을 수 있습니다.",
+    "videoUnavailable": "비디오를 사용할 수 없음",
+    "views": "조회수",
+    "synopsis": "시놉시스",
+    "tags": "태그",
+    "relatedVideos": "관련 비디오",
+    "hour": "시간",
+    "minute": "분"
+  },
+  "VideoPlayer": {
+    "sourceUnavailable": "비디오 소스를 사용할 수 없습니다.",
+    "externalHosted": "비디오가 외부에 호스팅되어 있습니다.",
+    "watchExternal": "외부 소스에서 보기"
+  },
+  "CommentSection": {
+    "title": "댓글",
+    "placeholder": "댓글을 작성하세요...",
+    "sending": "전송 중...",
+    "send": "전송",
+    "loginToComment1": "로그인",
+    "loginToComment2": "하여 댓글을 남기세요.",
+    "anonymous": "익명",
+    "noComments": "아직 댓글이 없습니다. 첫 댓글을 남겨보세요!"
+  },
+  "SearchPage": {
+    "title": "검색",
+    "invalidKeyword": "유효한 검색어를 입력해 주세요.",
+    "resultsFor": "\"{query}\" 검색 결과",
+    "emptySearch": "검색어와 일치하는 비디오가 없습니다"
+  },
+  "CategoryPage": {
+    "notFound": "카테고리를 찾을 수 없음",
+    "description": "{category} 카테고리의 비디오"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "Header": {
+    "home": "首页",
+    "forYou": "推荐",
+    "explore": "探索",
+    "categories": "分类",
+    "aiSearch": "AI搜索",
+    "aiChat": "AI聊天",
+    "login": "登录",
+    "register": "注册",
+    "adminPanel": "管理面板",
+    "bookmarks": "收藏夹",
+    "settings": "账户设置",
+    "advertise": "广告合作",
+    "logout": "退出"
+  },
+  "Footer": {
+    "description": "Aiuiso 是一个高级视频流媒体平台。",
+    "quickLinks": "快速链接",
+    "legal": "法律",
+    "dmca": "DMCA",
+    "privacy": "隐私政策",
+    "tos": "服务条款",
+    "faq": "常见问题",
+    "contact": "联系我们",
+    "rights": "版权所有",
+    "disclaimer": "免责声明：本网站包含成人内容。您必须年满18岁才能进入。"
+  },
+  "Login": {
+    "welcome": "欢迎",
+    "description": "登录 Aiuiso 观看并保存视频。",
+    "or": "或",
+    "noAccount": "还没有账号？",
+    "registerNow": "立即注册",
+    "agreeTerms": "登录即表示您同意",
+    "and": "和",
+    "ourPrivacy": "我们的隐私政策。"
+  },
+  "Legal": {
+    "dmcaTitle": "DMCA政策",
+    "dmcaDesc": "数字千年版权法政策。",
+    "privacyTitle": "隐私政策",
+    "privacyDesc": "我们如何收集和使用数据。",
+    "tosTitle": "服务条款",
+    "tosDesc": "使用条款。",
+    "faqTitle": "常见问题",
+    "contactTitle": "联系我们",
+    "advertiseTitle": "广告合作"
+  },
+  "Advertise": {
+    "desc": "每天触达数千名 Aiuiso 观众。",
+    "advName": "广告主 / 公司名称",
+    "advNamePlaceholder": "例如：数字公司",
+    "bannerUrl": "横幅 URL",
+    "targetUrl": "点击 URL",
+    "adPosition": "广告位置",
+    "adPositionPlaceholder": "选择广告位",
+    "duration": "持续时间 (天)",
+    "totalPrice": "总付款",
+    "paymentMethod": "选择支付方式",
+    "proceedPayment": "继续支付",
+    "sendVia": "发送",
+    "verifyMessage": "区块链交易确认后，系统将自动验证。",
+    "verifyButton": "我已付款",
+    "verifying": "验证中...",
+    "cancel": "取消"
+  },
+  "Contact": {
+    "desc": "有疑问或反馈吗？我们随时倾听。",
+    "name": "全名",
+    "namePlaceholder": "您的名字",
+    "email": "邮箱",
+    "emailPlaceholder": "your@email.com",
+    "message": "信息",
+    "messagePlaceholder": "我们需要怎么帮助您？",
+    "send": "发送信息",
+    "supportTitle": "客户支持",
+    "supportDesc": "需要技术帮助吗？",
+    "businessTitle": "商业与合作",
+    "businessDesc": "有兴趣投放广告吗？",
+    "securityTitle": "报告 Bug",
+    "securityDesc": "发现安全漏洞？"
+  },
+  "FAQ": {
+    "desc": "查找关于 Aiuiso 的常见问题。",
+    "q1": "Aiuiso 免费吗？",
+    "a1": "是的，基本功能免费。我们也提供免广告的 VIP。",
+    "q2": "如何成为 VIP？",
+    "a2": "通过账户设置进行升级。",
+    "q3": "我的数据安全吗？",
+    "a3": "我们使用高级加密技术保护您的数据。",
+    "q4": "可以下载视频吗？",
+    "a4": "VIP 用户可以下载特定视频。"
+  },
+  "LegalBody": {
+    "dmcaSummary": "Aiuiso 尊重知识产权。如果您认为您的版权被侵犯，请发送 DMCA 通知。",
+    "privacySummary": "我们收集基本信息以改进服务。您的数据已被加密，绝不出售。",
+    "tosSummary": "访问 Aiuiso 即表示您同意这些条款。成人内容要求 18 岁以上。"
+  },
+  "DMCA": {
+    "p1": "Aiuiso 尊重他人的知识产权。我们对任何有关我们网站内容侵犯版权的声明做出迅速回应是我们的政策。",
+    "takedownTitle": "提交删除通知",
+    "takedownP1": "如果您善意地认为 Aiuiso 上托管的任何内容侵犯了您的版权，请向我们的版权代理提供以下书面信息：",
+    "takedownL1": "被授权代表涉嫌受侵犯的专有权所有者行事的人的物理或电子签名。",
+    "takedownL2": "识别声称受到侵犯的受版权保护的作品。",
+    "takedownL3": "识别声称侵权并要被删除或禁止访问的材料，以及足以让我们定位该材料的信息（如精确 URL）。",
+    "takedownL4": "您的联系信息（地址、电话、电子邮件）。",
+    "takedownL5": "声明您善意地认为使用该材料未经版权所有者授权。",
+    "takedownL6": "声明通知中的信息准确无误。",
+    "contactTitle": "通知发送至",
+    "contactP1": "请将完整的 DMCA 删除通知发送至我们的版权代理：",
+    "counterTitle": "反通知",
+    "counterP1": "如果您认为被删除的内容并未侵权，您可以向我们的版权代理发送反通知。",
+    "note": "注意：我们将终止屡次侵权者的帐户。"
+  },
+  "PrivacyFull": {
+    "introTitle": "1. 简介",
+    "intro": "欢迎访问 Aiuiso。我们尊重您的隐私并保护您的个人数据。",
+    "s1Title": "2. 我们收集的数据",
+    "s1P1": "我们可能收集以下数据：",
+    "s1L1": "身份数据：用户名、邮箱。",
+    "s1L2": "技术数据：IP 地址等。",
+    "s1L3": "使用数据：观看历史记录。",
+    "s2Title": "3. 数据使用方式",
+    "s2P1": "我们将使用您的数据用于：",
+    "s2L1": "注册新用户。",
+    "s2L2": "提供相关内容。",
+    "s2L3": "改进我们的服务。",
+    "s3Title": "4. Cookies",
+    "s3P1": "您可以拒绝使用 cookies，但这可能影响某些功能。",
+    "s4Title": "5. 第三方链接",
+    "s4P1": "我们不对第三方网站的隐私政策负责。",
+    "lastUpdated": "最后更新：",
+    "contactPrompt": "如有疑问，请联系："
+  },
+  "TOSFull": {
+    "s1Title": "1. 接受条款",
+    "s1P1": "访问 Aiuiso 即表示您同意这些条款。",
+    "s2Title": "2. 用户帐户",
+    "s2P1": "您负责保护您的密码安全。",
+    "s3Title": "3. 年龄限制",
+    "s3P1": "您必须年满 13 岁。成人内容有年龄限制。",
+    "s4Title": "4. 版权和知识产权",
+    "s4P1": "我们尊重知识产权。报告版权侵权，请访问：",
+    "s5Title": "5. 用户行为",
+    "s5P1": "您同意不：",
+    "s5L1": "上传非法内容。",
+    "s5L2": "冒充他人。",
+    "s5L3": "发送垃圾邮件。",
+    "s5L4": "破坏网站安全。",
+    "s6Title": "6. 终止访问",
+    "s6P1": "我们保留终止违规帐户的权利。",
+    "contactPrompt": "有关条款的问题，请联系："
+  },
+  "Home": {
+    "latestVideos": "最新视频"
+  },
+  "VideoGrid": {
+    "loading": "正在加载视频...",
+    "tryAgain": "重试",
+    "endOfList": "所有视频已显示。",
+    "errorLoad": "加载视频失败",
+    "errorNext": "加载下一个视频失败。",
+    "emptyMessage": "没有可用的视频",
+    "loadingMessage": "加载中..."
+  },
+  "Shorts": {
+    "title": "AI 推荐 Shorts",
+    "subtitle": "为您量身定制"
+  },
+  "VideoCard": {
+    "noThumbnail": "无缩略图",
+    "hour": "小时",
+    "minute": "分钟"
+  },
+  "WatchPage": {
+    "videoNotFound": "未找到视频",
+    "antiPiracy": "严禁录制或重新分发此内容。侵犯版权将被追究法律责任。",
+    "videoUnavailable": "视频不可用",
+    "views": "次观看",
+    "synopsis": "简介",
+    "tags": "标签",
+    "relatedVideos": "相关视频",
+    "hour": "小时",
+    "minute": "分钟"
+  },
+  "VideoPlayer": {
+    "sourceUnavailable": "视频源不可用。",
+    "externalHosted": "视频托管在外部。",
+    "watchExternal": "观看外部资源"
+  },
+  "CommentSection": {
+    "title": "评论",
+    "placeholder": "写评论...",
+    "sending": "发送中...",
+    "send": "发送",
+    "loginToComment1": "登录",
+    "loginToComment2": " 以发表评论。",
+    "anonymous": "匿名",
+    "noComments": "暂无评论。抢沙发！"
+  },
+  "SearchPage": {
+    "title": "搜索",
+    "invalidKeyword": "请输入有效的搜索关键词。",
+    "resultsFor": "搜索结果：“{query}”",
+    "emptySearch": "没有与您的搜索匹配的视频"
+  },
+  "CategoryPage": {
+    "notFound": "未找到分类",
+    "description": "{category} 分类中的视频"
+  }
+}

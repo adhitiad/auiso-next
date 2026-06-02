@@ -1,0 +1,212 @@
+{
+  "Header": {
+    "home": "Trang chủ",
+    "forYou": "Cho bạn",
+    "explore": "Khám phá",
+    "categories": "Thể loại",
+    "aiSearch": "Tìm kiếm AI",
+    "aiChat": "Chat AI",
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "adminPanel": "Quản trị",
+    "bookmarks": "Đã lưu",
+    "settings": "Cài đặt",
+    "advertise": "Quảng cáo",
+    "logout": "Đăng xuất"
+  },
+  "Footer": {
+    "description": "Aiuiso là nền tảng video cao cấp.",
+    "quickLinks": "Liên kết",
+    "legal": "Pháp lý",
+    "dmca": "DMCA",
+    "privacy": "Bảo mật",
+    "tos": "Điều khoản",
+    "faq": "Câu hỏi thường gặp",
+    "contact": "Liên hệ",
+    "rights": "Bản quyền",
+    "disclaimer": "Tuyên bố từ chối trách nhiệm: Trang web này chứa nội dung người lớn. Bạn phải đủ 18 tuổi trở lên để vào."
+  },
+  "Login": {
+    "welcome": "Chào mừng",
+    "description": "Đăng nhập để xem video.",
+    "or": "HOẶC",
+    "noAccount": "Chưa có tài khoản?",
+    "registerNow": "Đăng ký ngay",
+    "agreeTerms": "Bằng cách đăng nhập, bạn đồng ý",
+    "and": "và",
+    "ourPrivacy": "Chính sách bảo mật."
+  },
+  "Legal": {
+    "dmcaTitle": "Chính sách DMCA",
+    "dmcaDesc": "Thông báo DMCA.",
+    "privacyTitle": "Chính sách bảo mật",
+    "privacyDesc": "Thông tin bảo mật.",
+    "tosTitle": "Điều khoản sử dụng",
+    "tosDesc": "Điều khoản dịch vụ.",
+    "faqTitle": "FAQ",
+    "contactTitle": "Liên hệ",
+    "advertiseTitle": "Quảng cáo"
+  },
+  "Advertise": {
+    "desc": "Tiếp cận hàng ngàn người xem Aiuiso mỗi ngày.",
+    "advName": "Nhà quảng cáo",
+    "advNamePlaceholder": "Ví dụ: Công ty Digital",
+    "bannerUrl": "URL Banner",
+    "targetUrl": "URL Đích",
+    "adPosition": "Vị trí",
+    "adPositionPlaceholder": "Chọn Slot",
+    "duration": "Thời lượng (Ngày)",
+    "totalPrice": "Tổng thanh toán",
+    "paymentMethod": "Chọn phương thức thanh toán",
+    "proceedPayment": "Tiến hành thanh toán",
+    "sendVia": "Gửi",
+    "verifyMessage": "Hệ thống sẽ tự động xác minh sau giao dịch blockchain.",
+    "verifyButton": "Tôi đã thanh toán",
+    "verifying": "Đang xác minh...",
+    "cancel": "Hủy"
+  },
+  "Contact": {
+    "desc": "Có câu hỏi? Chúng tôi luôn sẵn sàng lắng nghe.",
+    "name": "Họ tên",
+    "namePlaceholder": "Tên của bạn",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "message": "Tin nhắn",
+    "messagePlaceholder": "Chúng tôi có thể giúp gì?",
+    "send": "Gửi tin nhắn",
+    "supportTitle": "Hỗ trợ khách hàng",
+    "supportDesc": "Cần trợ giúp kỹ thuật?",
+    "businessTitle": "Kinh doanh",
+    "businessDesc": "Quan tâm đến quảng cáo?",
+    "securityTitle": "Báo lỗi",
+    "securityDesc": "Tìm thấy lỗ hổng bảo mật?"
+  },
+  "FAQ": {
+    "desc": "Câu hỏi thường gặp về Aiuiso.",
+    "q1": "Aiuiso có miễn phí không?",
+    "a1": "Có, các tính năng cơ bản là miễn phí.",
+    "q2": "Làm thế nào để thành VIP?",
+    "a2": "Nâng cấp qua cài đặt tài khoản.",
+    "q3": "Dữ liệu có an toàn không?",
+    "a3": "Chúng tôi mã hóa để bảo vệ dữ liệu của bạn.",
+    "q4": "Có thể tải video không?",
+    "a4": "Chỉ VIP mới có thể tải một số video."
+  },
+  "LegalBody": {
+    "dmcaSummary": "Aiuiso tôn trọng bản quyền. Gửi thông báo DMCA nếu có vi phạm.",
+    "privacySummary": "Chúng tôi thu thập dữ liệu để cải thiện dịch vụ. Dữ liệu được mã hóa.",
+    "tosSummary": "Sử dụng Aiuiso đồng nghĩa bạn đồng ý với các điều khoản. Nội dung 18+."
+  },
+  "DMCA": {
+    "p1": "Aiuiso tôn trọng quyền sở hữu trí tuệ của người khác. Chính sách của chúng tôi là phản hồi nhanh chóng đối với các khiếu nại về vi phạm bản quyền.",
+    "takedownTitle": "Gửi thông báo gỡ xuống",
+    "takedownP1": "Nếu bạn tin rằng nội dung trên Aiuiso vi phạm bản quyền của bạn, vui lòng cung cấp cho Đại lý Bản quyền của chúng tôi các thông tin sau:",
+    "takedownL1": "Chữ ký thực tế hoặc điện tử của người được ủy quyền.",
+    "takedownL2": "Xác định tác phẩm có bản quyền bị vi phạm.",
+    "takedownL3": "Xác định tài liệu vi phạm cần gỡ bỏ (ví dụ: URL chính xác).",
+    "takedownL4": "Thông tin liên hệ của bạn.",
+    "takedownL5": "Tuyên bố rằng việc sử dụng không được phép.",
+    "takedownL6": "Tuyên bố thông tin là chính xác.",
+    "contactTitle": "Gửi thông báo đến",
+    "contactP1": "Gửi thông báo DMCA tới:",
+    "counterTitle": "Thông báo phản đối",
+    "counterP1": "Nếu bạn tin rằng nội dung của mình không vi phạm, bạn có thể gửi thông báo phản đối.",
+    "note": "Lưu ý: Chúng tôi sẽ chấm dứt tài khoản của những người vi phạm nhiều lần."
+  },
+  "PrivacyFull": {
+    "introTitle": "1. Giới thiệu",
+    "intro": "Chào mừng đến Aiuiso. Chúng tôi tôn trọng quyền riêng tư của bạn.",
+    "s1Title": "2. Dữ liệu thu thập",
+    "s1P1": "Chúng tôi thu thập:",
+    "s1L1": "Dữ liệu danh tính: tên người dùng, email.",
+    "s1L2": "Dữ liệu kỹ thuật: địa chỉ IP.",
+    "s1L3": "Dữ liệu sử dụng: lịch sử xem.",
+    "s2Title": "3. Cách chúng tôi sử dụng dữ liệu",
+    "s2P1": "Chúng tôi sử dụng dữ liệu để:",
+    "s2L1": "Đăng ký người dùng mới.",
+    "s2L2": "Cung cấp nội dung phù hợp.",
+    "s2L3": "Cải thiện dịch vụ.",
+    "s3Title": "4. Cookies",
+    "s3P1": "Bạn có thể từ chối cookies nhưng một số tính năng có thể không hoạt động.",
+    "s4Title": "5. Liên kết bên thứ ba",
+    "s4P1": "Chúng tôi không chịu trách nhiệm về chính sách của trang web bên thứ ba.",
+    "lastUpdated": "Cập nhật lần cuối: ",
+    "contactPrompt": "Nếu có thắc mắc, vui lòng"
+  },
+  "TOSFull": {
+    "s1Title": "1. Chấp nhận Điều khoản",
+    "s1P1": "Sử dụng Aiuiso đồng nghĩa bạn đồng ý với các điều khoản này.",
+    "s2Title": "2. Tài khoản người dùng",
+    "s2P1": "Bạn chịu trách nhiệm bảo mật mật khẩu của mình.",
+    "s3Title": "3. Giới hạn độ tuổi",
+    "s3P1": "Bạn phải từ 13 tuổi trở lên. Nội dung người lớn có giới hạn 18+.",
+    "s4Title": "4. Bản quyền",
+    "s4P1": "Chúng tôi tôn trọng bản quyền. Báo cáo vi phạm tại",
+    "s5Title": "5. Hành vi người dùng",
+    "s5P1": "Bạn đồng ý KHÔNG:",
+    "s5L1": "Tải lên nội dung bất hợp pháp.",
+    "s5L2": "Mạo danh người khác.",
+    "s5L3": "Gửi thư rác.",
+    "s5L4": "Can thiệp vào bảo mật trang web.",
+    "s6Title": "6. Chấm dứt quyền truy cập",
+    "s6P1": "Chúng tôi có thể khóa tài khoản vi phạm.",
+    "contactPrompt": "Về các điều khoản, vui lòng"
+  },
+  "Home": {
+    "latestVideos": "Video mới nhất"
+  },
+  "VideoGrid": {
+    "loading": "Đang tải video...",
+    "tryAgain": "Thử lại",
+    "endOfList": "Tất cả video đã được hiển thị.",
+    "errorLoad": "Tải video thất bại",
+    "errorNext": "Tải video tiếp theo thất bại.",
+    "emptyMessage": "Không có video",
+    "loadingMessage": "Đang tải..."
+  },
+  "Shorts": {
+    "title": "Shorts Đề xuất từ AI",
+    "subtitle": "Được cá nhân hóa cho bạn"
+  },
+  "VideoCard": {
+    "noThumbnail": "Không có hình thu nhỏ",
+    "hour": "g",
+    "minute": "p"
+  },
+  "WatchPage": {
+    "videoNotFound": "Không tìm thấy video",
+    "antiPiracy": "Nghiêm cấm ghi hoặc phân phối lại nội dung này. Vi phạm bản quyền sẽ bị xử lý.",
+    "videoUnavailable": "Video không có sẵn",
+    "views": "lượt xem",
+    "synopsis": "Tóm tắt",
+    "tags": "Thẻ",
+    "relatedVideos": "Video liên quan",
+    "hour": "g",
+    "minute": "p"
+  },
+  "VideoPlayer": {
+    "sourceUnavailable": "Nguồn video không có sẵn.",
+    "externalHosted": "Video được lưu trữ bên ngoài.",
+    "watchExternal": "Xem Nguồn Ngoài"
+  },
+  "CommentSection": {
+    "title": "Bình luận",
+    "placeholder": "Viết bình luận...",
+    "sending": "Đang gửi...",
+    "send": "Gửi",
+    "loginToComment1": "Đăng nhập",
+    "loginToComment2": " để để lại bình luận.",
+    "anonymous": "Ẩn danh",
+    "noComments": "Chưa có bình luận nào. Hãy là người đầu tiên!"
+  },
+  "SearchPage": {
+    "title": "Tìm kiếm",
+    "invalidKeyword": "Vui lòng nhập từ khóa tìm kiếm hợp lệ.",
+    "resultsFor": "Kết quả tìm kiếm: \"{query}\"",
+    "emptySearch": "Không có video nào phù hợp với tìm kiếm của bạn"
+  },
+  "CategoryPage": {
+    "notFound": "Không tìm thấy danh mục",
+    "description": "Video trong danh mục {category}"
+  }
+}

@@ -1,0 +1,59 @@
+name: Aiuiso CI/CD
+
+on:
+  push:
+    branches: ["main", "master"]
+  pull_request:
+    branches: ["main", "master"]
+
+jobs:
+  build:
+    name: Build & Validate
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install Dependencies
+        run: bun install
+
+      - name: Generate Prisma Client
+        run: bunx prisma generate
+
+      - name: Type Check
+        run: bunx tsc --noEmit
+
+      - name: Build Next.js
+        run: bun run build
+        env:
+          DATABASE_URL: "file:./dev.db"
+          AUTH_SECRET: "dummy-secret-for-build-min-32-chars-long"
+          AUTH_GOOGLE_ID: "dummy-id"
+          AUTH_GOOGLE_SECRET: "dummy-secret"
+          SUPABASE_URL: "https://dummy.supabase.co"
+          SUPABASE_ANON_KEY: "dummy-key"
+          NEXT_PUBLIC_APP_URL: "http://localhost:3000"
+
+  # Optional Deployment Step for Vercel
+  # (Requires VERCEL_TOKEN and VERCEL_ORG_ID / VERCEL_PROJECT_ID secrets in GitHub Settings)
+  # deploy:
+  #   name: Deploy to Vercel
+  #   needs: build
+  #   if: github.ref == 'refs/heads/main'
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout Repository
+  #       uses: actions/checkout@v4
+  #     - name: Deploy to Vercel Action
+  #       uses: amondnet/vercel-action@v20
+  #       with:
+  #         vercel-token: ${{ secrets.VERCEL_TOKEN }}
+  #         vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+  #         vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+  #         vercel-args: '--prod'
