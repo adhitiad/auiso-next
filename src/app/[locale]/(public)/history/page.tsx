@@ -1,29 +1,36 @@
-import { Metadata } from "next"
-import { redirect } from "next/navigation"
-import { auth } from "@/lib/auth"
-import { prisma } from "@/lib/prisma"
-import { VideoCard } from "@/components/features/video/video-card"
-import { Clock, Trash2 } from "lucide-react"
+import { Metadata } from "next";
+import { redirect } from "next/navigation";
+import type { Prisma } from "@prisma/client";
+import { auth } from "@/lib/auth";
+import { prisma } from "@/lib/prisma";
+import { VideoCard } from "@/components/features/video/video-card";
+import { Clock, Trash2 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Riwayat Tontonan - Aiuiso",
   description: "Video yang pernah Anda tonton di Aiuiso.",
-}
+};
+
+const historyInclude = {
+  video: {
+    include: { CategoryOnVideo: { include: { Category: true } } },
+  },
+} satisfies Prisma.WatchHistoryInclude;
+
+type HistoryWithVideo = Prisma.WatchHistoryGetPayload<{
+  include: typeof historyInclude;
+}>;
 
 const HistoryPage = async () => {
-  const session = await auth()
-  if (!session?.user?.id) redirect("/login")
+  const session = await auth();
+  if (!session?.user?.id) redirect("/login");
 
-  const history = await prisma.watchHistory.findMany({
+  const history: HistoryWithVideo[] = await prisma.watchHistory.findMany({
     where: { userId: session.user.id },
     orderBy: { watchedAt: "desc" },
     take: 100,
-    include: {
-      video: {
-        include: { CategoryOnVideo: { include: { Category: true } } },
-      },
-    },
-  })
+    include: historyInclude,
+  });
 
   return (
     <main className="container mx-auto px-4 py-8 min-h-[80vh]">
@@ -40,19 +47,20 @@ const HistoryPage = async () => {
       {history.length > 0 ? (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
           {history.map((h) => (
-            <VideoCard key={h.id} video={h.video as any} />
+            <VideoCard key={h.id} video={h.video} />
           ))}
         </div>
       ) : (
         <div className="text-center py-20 bg-night-card rounded-xl border border-white/10">
           <Clock className="w-16 h-16 mx-auto text-white/20 mb-4" />
           <h3 className="text-xl text-white/50 mb-2">Riwayat kosong</h3>
-          <p className="text-white/30">Mulai tonton video dan riwayat Anda akan muncul di sini.</p>
+          <p className="text-white/30">
+            Mulai tonton video dan riwayat Anda akan muncul di sini.
+          </p>
         </div>
       )}
     </main>
-  )
-}
-
+  );
+};
 
 export default HistoryPage;
