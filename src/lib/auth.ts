@@ -6,7 +6,8 @@ import { prisma } from "./prisma";
 import bcrypt from "bcryptjs";
 import { randomBytes } from "crypto";
 
-const customAdapter = PrismaAdapter(prisma) as any;
+// @ts-ignore - PrismaAdapter with Prisma v7 has deep type instantiation issues
+const customAdapter = PrismaAdapter(prisma);
 const originalCreateUser = customAdapter.createUser!;
 customAdapter.createUser = async (user: any) => {
   if (!user.username) {
