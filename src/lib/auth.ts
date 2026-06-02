@@ -23,7 +23,7 @@ const nextAuthResult = (NextAuth as any)({
         email: { label: "Email / Username", type: "text", required: true },
         password: { label: "Password", type: "password", required: true },
       },
-      authorize: async (credentials) => {
+      authorize: async (credentials: any) => {
         if (!credentials?.email || !credentials?.password) return null;
 
         const identifier = credentials.email as string;
@@ -57,17 +57,17 @@ const nextAuthResult = (NextAuth as any)({
   ],
   session: { strategy: "jwt" },
   callbacks: {
-    async signIn({ user, account, profile }) {
+    async signIn({ user, account, profile }: any) {
       return true;
     },
-    async session({ session, token }) {
+    async session({ session, token }: any) {
       if (session.user && token.sub) {
         session.user.id = token.sub;
         session.user.role = (token.role as string) || "USER";
       }
       return session;
     },
-    async jwt({ token, user, trigger, session }) {
+    async jwt({ token, user, trigger, session }: any) {
       if (user) {
         token.role = user.role ?? "USER";
       }
