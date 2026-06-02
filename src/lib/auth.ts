@@ -6,7 +6,7 @@ import { prisma } from "./prisma";
 import bcrypt from "bcryptjs";
 import { randomBytes } from "crypto";
 
-const customAdapter = PrismaAdapter(prisma);
+const customAdapter = PrismaAdapter(prisma) as any;
 const originalCreateUser = customAdapter.createUser!;
 customAdapter.createUser = async (user: any) => {
   if (!user.username) {
@@ -15,7 +15,7 @@ customAdapter.createUser = async (user: any) => {
   return originalCreateUser(user);
 };
 
-export const { handlers, auth, signIn, signOut } = NextAuth({
+const nextAuthResult = (NextAuth as any)({
   adapter: customAdapter,
   providers: [
     Credentials({
@@ -82,3 +82,5 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     error: "/login",
   },
 });
+
+export const { handlers, auth, signIn, signOut } = nextAuthResult;

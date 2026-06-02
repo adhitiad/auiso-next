@@ -28,7 +28,7 @@ export const CommentSection = ({ videoId, totalComments }: CommentSectionProps) 
     <div className="space-y-6">
       <h2 className="font-semibold text-lg">{comments.length > totalComments ? comments.length : totalComments} Komentar</h2>
       
-      {session ? (
+      {session?.user ? (
         <form onSubmit={handleSubmit} className="flex gap-4">
           <Avatar className="w-10 h-10">
             <AvatarImage src={session.user.image ?? undefined} />

@@ -8,7 +8,7 @@ import { ComposableMap, Geographies, Geography } from "react-simple-maps"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Badge } from "@/components/ui/badge"
-import { BlockStatus } from "@prisma/client"
+import { BlockStatus } from "@/generated/prisma"
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"
 

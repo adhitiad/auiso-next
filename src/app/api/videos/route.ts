@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { videoListQuerySchema } from "@/types/api";
-import { Prisma } from "@prisma/client";
+import { Prisma } from "@/generated/prisma";
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;

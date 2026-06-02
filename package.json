@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "eslint",
     "generate:api": "openapi-typescript https://player4me.com/api/v1/openapi.json -o ./src/types/api/player4me.d.ts"
