@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { supabase } from "@/lib/supabase";
 import { useTranslations } from "next-intl";
 
@@ -44,6 +44,9 @@ export const VideoPlayer = ({
   const embedUrl = getEmbedUrl(videoPlatform, sourceVideoId);
   const t = useTranslations("VideoPlayer");
 
+  // Ref untuk melacak apakah view sudah dicatat agar tidak spam API
+  const hasRecordedView = useRef(false);
+
   console.log(embedUrl);
 
   useEffect(() => {
@@ -62,6 +65,32 @@ export const VideoPlayer = ({
     return () => {
       client.removeChannel(channel);
     };
+  }, [videoId]);
+
+  // Effect BARU: Deteksi durasi tonton (Heartbeat)
+  useEffect(() => {
+    // Atur timer 15 detik (15000 ms)
+    const timer = setTimeout(async () => {
+      if (!hasRecordedView.current) {
+        try {
+          const res = await fetch("/api/interact", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ type: "watch", videoId }),
+          });
+
+          if (res.ok) {
+            hasRecordedView.current = true;
+            console.log("Valid view recorded!");
+          }
+        } catch (error) {
+          console.error("Failed to record view", error);
+        }
+      }
+    }, 15000);
+
+    // Bersihkan timer jika user pindah halaman sebelum 15 detik
+    return () => clearTimeout(timer);
   }, [videoId]);
 
   if (!peerTubeId && !externalSourceUrl && !embedUrl) {
@@ -111,4 +140,4 @@ export const VideoPlayer = ({
       )}
     </div>
   );
-}
+};

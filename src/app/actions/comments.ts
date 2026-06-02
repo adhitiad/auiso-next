@@ -32,5 +32,12 @@ export async function getComments(videoId: string) {
     where: { videoId },
     orderBy: { createdAt: "desc" },
     include: { user: { select: { id: true, name: true, image: true } } },
-  })
+  });
+}
+
+export async function getCommentById(commentId: string) {
+  return prisma.comment.findUnique({
+    where: { id: commentId },
+    include: { user: { select: { id: true, name: true, image: true } } },
+  });
 }
