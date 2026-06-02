@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useSession, signOut } from "next-auth/react";
 import { ChevronDown, User, Sparkles, Bot, Menu, Globe } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
@@ -61,7 +62,17 @@ export const Header = () => {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between gap-4">
         {/* Logo */}
         <Link href={`/${locale}`} className="flex items-center gap-2 group flex-shrink-0">
-          <span className="font-serif text-2xl font-bold bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent group-hover:drop-shadow-[0_0_10px_rgba(192,132,252,0.8)] transition-all duration-300">
+          <div className="relative w-8 h-8 md:w-10 md:h-10 overflow-hidden rounded-full border border-white/10 group-hover:border-purple-500/50 transition-colors">
+            <Image
+              src="/123.jpg"
+              alt="Aiuiso Logo"
+              fill
+              className="object-cover"
+              sizes="40px"
+              priority
+            />
+          </div>
+          <span className="font-serif text-2xl font-bold bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent group-hover:drop-shadow-[0_0_10px_rgba(192,132,252,0.8)] transition-all duration-300 hidden sm:block">
             Aiuiso
           </span>
         </Link>
