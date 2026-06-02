@@ -14,7 +14,10 @@ export function useRealtimeComments(videoId: string) {
       setIsLoading(false)
     })
 
-    const channel = supabase
+    const client = supabase
+    if (!client) return
+
+    const channel = client
       .channel(`video-${videoId}-comments`)
       .on("postgres_changes", {
         event: "INSERT",
@@ -26,7 +29,7 @@ export function useRealtimeComments(videoId: string) {
       })
       .subscribe()
 
-    return () => { supabase.removeChannel(channel) }
+    return () => { client.removeChannel(channel) }
   }, [videoId])
 
   return { comments, isLoading }

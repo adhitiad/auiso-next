@@ -32,7 +32,10 @@ export const CommentSection = ({ videoId, initialComments, isLoggedIn }: Comment
 
   // Supabase Realtime
   useEffect(() => {
-    const channel = supabase
+    const client = supabase
+    if (!client) return
+
+    const channel = client
       .channel(`comments:${videoId}`)
       .on("broadcast", { event: "NEW_COMMENT" }, (payload) => {
         const newComment = payload.payload as Comment
@@ -45,7 +48,7 @@ export const CommentSection = ({ videoId, initialComments, isLoggedIn }: Comment
       })
       .subscribe()
 
-    return () => { supabase.removeChannel(channel) }
+    return () => { client.removeChannel(channel) }
   }, [videoId])
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {

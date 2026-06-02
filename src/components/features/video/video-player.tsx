@@ -47,7 +47,10 @@ export const VideoPlayer = ({
   console.log(embedUrl);
 
   useEffect(() => {
-    const channel = supabase
+    const client = supabase;
+    if (!client) return;
+
+    const channel = client
       .channel(`stream:${videoId}`)
       .on("broadcast", { event: "STREAM_STATUS" }, (payload) => {
         if (payload.payload?.videoId === videoId) {
@@ -57,7 +60,7 @@ export const VideoPlayer = ({
       .subscribe();
 
     return () => {
-      supabase.removeChannel(channel);
+      client.removeChannel(channel);
     };
   }, [videoId]);
 
